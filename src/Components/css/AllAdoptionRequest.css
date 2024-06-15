@@ -1,0 +1,55 @@
+body {
+    background-color: red; /* Cambia este color según tus preferencias */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.CompleteContainerAllAdoptionRequest {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-container {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.CompleteContainerAllAdoptionRequest .table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.CompleteContainerAllAdoptionRequest .table th,
+.CompleteContainerAllAdoptionRequest .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.CompleteContainerAllAdoptionRequest .table th {
+    background-color: #2a1c05;
+    color: white;
+}
+
+.CompleteContainerAllAdoptionRequest .table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.text-center {
+    color: #d47f00;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

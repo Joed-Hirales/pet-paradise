@@ -1,0 +1,56 @@
+.CompleteContainerAboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    background-color: #fef1e9;
+}
+
+.ContainerImageAU {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Ajusta la altura según sea necesario */
+    overflow: hidden; /* Recorta la imagen si es más grande que el contenedor */
+}
+
+.ImagenRedimension {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para que se ajuste al contenedor */
+    filter: brightness(50%);
+}
+
+.TextContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ImageText1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.ImageText2 {
+    font-size: 40px !important;
+    color: #d47f00;
+}
+
+.AboutUsTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.AboutUsText {
+    font-size: 1.7rem;
+    color: #2a1c05;
+    text-align: justify;
+}
