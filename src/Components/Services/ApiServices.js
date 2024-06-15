@@ -1,5 +1,5 @@
 import axios from "axios";
-const ApiRouter = axios.create({baseURL: "http://127.0.0.1:8000/api/"})
+const ApiRouter = axios.create({baseURL: "https://petparadiseapi-production.up.railway.app/api/"})
 export async function fetchPets(){
     const response = await ApiRouter.get("pets");
     return response.data;
