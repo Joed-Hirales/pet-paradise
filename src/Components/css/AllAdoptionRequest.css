@@ -1,5 +1,5 @@
 body {
-    background-color: red; /* Cambia este color según tus preferencias */
+    background-color: #d3d3d3; /* Cambia este color según tus preferencias */
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
@@ -40,7 +40,7 @@ body {
 }
 
 .CompleteContainerAllAdoptionRequest .table tbody tr:nth-child(odd) {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
 .text-center {
