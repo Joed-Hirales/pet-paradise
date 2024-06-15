@@ -34,7 +34,7 @@ function PetInformation() {
             <div className='ContainerPetInformation'>
                 <div className='[grid-area:image] ContainerImage'>
                     <picture>
-                        <img className='FormImage img-fluid' src={`http://127.0.0.1:8000${pet.img}`} alt={pet.name} />
+                        <img className='FormImage img-fluid' src={`http://pet-paradise-three.vercel.app${pet.img}`} alt={pet.name} />
                     </picture>
                 </div>
                 <div className='[grid-area:main] ContainerInformation'>
