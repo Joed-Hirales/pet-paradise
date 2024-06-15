@@ -123,7 +123,7 @@ function FormAdoptPet() {
                             >
                                 <option value="">Seleccione Género</option>
                                 <option value="MACHO">Macho</option>
-                                <option value="hembra">Hembra</option>
+                                <option value="HEMBRA">Hembra</option>
                             </select>
                             <input
                                 className="CelsForm"
