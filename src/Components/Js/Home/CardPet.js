@@ -15,7 +15,7 @@ function CardPet({ pet }) {
 
   return (
     <Card style={cardStyle}>
-      <Card.Img variant="top" src={`httpspetparadiseapi-production.up.railway.app${pet.img}`} alt={pet.name} style={imgStyle} />
+      <Card.Img variant="top" src={`https://petparadiseapi-production.up.railway.app${pet.img}`} alt={pet.name} style={imgStyle} />
       <Card.Body>
         <Card.Title>{pet.name}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{pet.breed}</Card.Subtitle>
